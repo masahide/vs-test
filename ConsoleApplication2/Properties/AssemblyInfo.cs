@@ -35,4 +35,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
+// log4net 構成ファイルの名前や、構成情報が修正された際に構成情報を再ロードするように構成情報の監視するため
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
